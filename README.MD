@@ -1,5 +1,3 @@
-# Brave Image Replacer Extension
-
 ## Description
 Replaces a profile picture on the 42 Intranet.
 
