@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "42 Profile Picture Changer",
+  "version": "1.0",
+  "description": "Allows you to replace your profile picture in the 42 Intranet.",
+  "permissions": ["scripting"],
+  "web_accessible_resources": [
+    {
+      "resources": ["avatar.jpg"],
+      "matches": ["https://profile-v3.intra.42.fr/*"]
+    }
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://profile-v3.intra.42.fr/*"], 
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
