@@ -1,16 +1,14 @@
 # Brave Image Replacer Extension
 
 ## Description
-Replaces a specific image source with a different one on a single website.
+Replaces a profile picture on the 42 Intranet.
 
 ## Installation
-1. Open Brave and go to `brave://extensions/`
+1. Open Chrome (or any Chromium-based browser) and go to `chrome://extensions/`
 2. Enable **Developer mode**
 3. Click **Load unpacked**
-4. Select the `replace-image-extension` folder
-5. Visit the site defined in `manifest.json` and test
+4. Select the extension's folder
 
 ## Configuration
 Edit `content.js`:
 - `targetSrc`: image URL to replace
-- `newSrc`: the replacement image URL
